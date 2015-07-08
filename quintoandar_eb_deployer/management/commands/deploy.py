@@ -192,7 +192,7 @@ class Command(BaseCommand):
 				'--add-header="Content-Type: application/x-font-woff"',
 				'sync',
 				'./*.woff',
-				's3://5ares/' + folder + '/fonts/',
+				's3://5ares/' + folder + '/css/',
 				'--config=../../../s3cmd.conf'
 			])
 			
